@@ -1,2 +1,2 @@
 # cifar10_on_differentnetworks
-We have tried anns, cnns, vgg and resnets on cifar 10 dataset
+Comparing the accuracy of different models on the CIFAR-10 dataset for image classification we found that clearly, ResNet-152 has much higher accuracy than simpler models with lesser layers and ResNet-50 indicating that the performance of ResNets actually improves with the increase in depth. This is because the layers of ResNet learn residual functions with reference to the layer inputs making deep networks easier to optimize. This was quite revolutionary in the field of computer vision as tasks such as image recognition and segmentation became so much easier.
